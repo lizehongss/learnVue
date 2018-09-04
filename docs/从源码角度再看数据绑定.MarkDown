@@ -197,7 +197,7 @@ export class  {
    */
   observeArray (items: Array<any>) {
 
-    /*数组需要便利每一个成员进行observe*/
+    /*数组需要遍历每一个成员进行observe*/
     for (let i = 0, l = items.length; i < l; i++) {
       observe(items[i])
     }
